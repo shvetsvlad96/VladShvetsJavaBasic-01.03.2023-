@@ -11,11 +11,7 @@ public class Parallelepiped {
         System.out.println("Height = " + height);
         int volume = length * width * height;
         System.out.println("Volume of parallelepiped = " + volume);
-        int sideOne = 3;
-        int sideTwo = 4;
-        int sideThree = 5;
-        int sideFour = 6;
-        int totalLength = sideOne + sideTwo + sideThree + sideFour;
+        int totalLength = 4 * (length + width + height); // Сумма всех сторон, при условии что параллелипипед прямоугольный.
         System.out.println("Total length = " + totalLength);
     }
 }
